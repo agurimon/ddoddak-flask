@@ -11,10 +11,9 @@ app.config['SESSION_TYPE'] = 'filesystem'
 
 db = SQLAlchemy(app)
 
-# from app import models
-# db.create_all()
-#
-# from app import routes
+from app import models
+db.create_all()
+from app import routes
 
 @app.route('/')
 def index():
