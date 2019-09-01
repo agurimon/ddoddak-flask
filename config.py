@@ -1,0 +1,11 @@
+import os
+
+DATABASE_NAME = os.environ['DATABASE_NAME']
+DATABASE_USER = os.environ['DATABASE_USER']
+DATABASE_PASSWORD = os.environ['DATABASE_PASSWORD']
+
+CONNECT_STRING = 'mysql://{}:{}@localhost:3306/{}'.format(
+    DATABASE_USER,
+    DATABASE_PASSWORD,
+    DATABASE_NAME
+)

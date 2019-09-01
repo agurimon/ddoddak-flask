@@ -1,0 +1,22 @@
+{
+  "name": "ddoddak-flask",
+  "authors": [
+    "agurimon <agurimon18@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "semantic": "^2.4.1",
+    "jquery": "^3.4.1",
+    "requirejs": "^2.3.6"
+  }
+}

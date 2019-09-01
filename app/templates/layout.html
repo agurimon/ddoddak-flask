@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+      <title>hellol</title>
+      <link rel="stylesheet" href="{{ url_for('static', filename='lib/semantic/dist/semantic.css') }}"> }}">
+      <link rel="stylesheet" href="{{ url_for('static', filename='css/layout.css') }}">
+  </head>
+
+  <body>
+      <div class="body">
+          {% block body %}
+          {% endblock %}
+      </div>
+
+      <script src="{{ url_for('static', filename='lib/requirejs/require.js') }}"></script>
+      <script src="{{ url_for('static', filename='js/layout.js') }}"></script>
+  </body>
+</html>
