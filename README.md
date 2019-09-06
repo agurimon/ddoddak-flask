@@ -19,14 +19,17 @@
 4. venv을 활성화한다.
      $ source ./venv/bin/activate
 
-5. 라이브러리를 설치한다.
+5. Mysql을 설치한다.
+     $ sudo apt-get install mysql-server
+
+6. 라이브러리를 설치한다.
      $ pip install -r requirements.txt
 
-6. bower(웹 프론트엔드 패키지 관리자) 설치
+7. bower(웹 프론트엔드 패키지 관리자) 설치
      $ sudo npm install -g bower
          (만약 안된다면) $ sudo apt-get install nodejs, npm
 
-7. bower(프론트엔드 패키지 라이브러리 설치
+8. bower(프론트엔드 패키지 라이브러리 설치
      $ bower install
 ```
 
